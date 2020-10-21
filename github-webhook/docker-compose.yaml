@@ -1,0 +1,6 @@
+services:
+  webhook:
+    build: .
+    ports:
+      - "4567:5000"
+
