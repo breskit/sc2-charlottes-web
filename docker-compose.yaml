@@ -1,0 +1,20 @@
+services:
+  web:
+    environment: 
+      - NGINX_PORT=8080
+    build: ./web-server
+    ports:
+      - "8080:80"
+    volumes:
+      - /home/andy/dev/sc2-charlottes-web/web-server:/usr/share/nginx/html
+
+  
+  webhook:
+    build: ./github-webhook
+    ports:
+      - "4567:5000"
+    volumes:
+      - /home/andy/dev/sc2-charlottes-web:/code
+      
+      
+      

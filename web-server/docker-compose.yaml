@@ -8,13 +8,4 @@ services:
     volumes:
       - /home/andy/dev/sc2-charlottes-web/web-server:/usr/share/nginx/html
 
-  
 
-#  github-hook:
-#    environment: 
-#      - NGINX_PORT=4567
-#    image: nginx
-#    ports:
-#      - "4567:80"
-#    volumes:
-#      - /home/andy/dev/sc2-charlottes-web/web-server:/usr/share/nginx/html

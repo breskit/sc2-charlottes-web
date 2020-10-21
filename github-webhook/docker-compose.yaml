@@ -3,4 +3,7 @@ services:
     build: .
     ports:
       - "4567:5000"
+    volumes:
+      - /home/andy/dev/sc2-charlottes-web:/code
+
 

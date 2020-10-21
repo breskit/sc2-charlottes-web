@@ -11,7 +11,7 @@ def hello_world():
 
 @webhook.hook()
 def on_push(data):
-    g = git.cmd.Git("/home/andy/dev/sc2-charlottes-web")
+    g = git.cmd.Git("/code")
     g.pull()
     return("done")
 
