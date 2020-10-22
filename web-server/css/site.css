@@ -1,0 +1,16 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-image: url('../images/pattern.png');
+    background-repeat: repeat;
+}
+
+.row>[class^=col] {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: 1px solid rgba(228, 75, 15, 0.4);
+}
+
+.row {
+    margin-top: 0.25em;
+}
